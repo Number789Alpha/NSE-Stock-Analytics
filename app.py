@@ -60,6 +60,17 @@ st.markdown("""
 # -----------------------------------------------------------------------------
 DB_PATH = 'stock_market.db'
 
+def ensure_database():
+    """Ensure database exists and is populated before running any queries."""
+    if not os.path.exists(DB_PATH) or os.path.getsize(DB_PATH) == 0:
+        try:
+            from build_database import build_db
+            build_db()
+        except Exception as e:
+            st.error(f"Error initializing database: {e}")
+
+ensure_database()
+
 @st.cache_data(ttl=300)
 def run_query(query):
     conn = sqlite3.connect(DB_PATH)
