@@ -1,11 +1,13 @@
 # 📈 NSE Stock Market SQL Analysis Dashboard
 
-A comprehensive **SQL-driven stock market analysis project** covering **6 NSE blue-chip equities** over **889 trading days** (Jan 2015 – Jul 2018). Built with **SQLite**, **Python**, and **Streamlit**.
-
+[![Live Dashboard](https://img.shields.io/badge/Streamlit%20Cloud-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit)](https://nse-stock-analytics-imhwvkroyqxn4z64e4hpva.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)](https://streamlit.io)
 [![SQLite](https://img.shields.io/badge/Database-SQLite%203-lightblue?logo=sqlite)](https://sqlite.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+> 🚀 **Live Interactive Dashboard:** [https://nse-stock-analytics-imhwvkroyqxn4z64e4hpva.streamlit.app/](https://nse-stock-analytics-imhwvkroyqxn4z64e4hpva.streamlit.app/)
+
+A comprehensive **SQL-driven stock market analysis project** covering **6 NSE blue-chip equities** over **889 trading days** (Jan 2015 – Jul 2018). Built with **SQLite**, **Python**, and **Streamlit**.
 
 ---
 
